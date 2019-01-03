@@ -1,0 +1,19 @@
+n x n:
+    width 2 -> n-1, height 2 -> n-1 (r-shaped)
+        operations:
+            + *
+    width 2 -> n-1, height 2 -> n-1 (l-shaped)
+        operations:
+            + *
+    width 2 -> n-1, height 2 -> n-1 (j-shaped)
+        operations:
+            + *
+    width 2 -> n-1, height 1
+        operations:
+            + * - /
+    width 1, height 2 -> n-1
+        operations:
+            + * - /
+    width 1, height 1
+        operations:
+            none
